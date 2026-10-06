@@ -2,7 +2,7 @@
   "app": "SPINGIII",
   "athlete": "Darius",
   "coach": "Nanni",
-  "updated": "2026-10-06T00:00:00.000Z",
+  "updated": "2026-10-06T06:38:15.000Z",
   "bands": [
     { "id": "none",   "short": "—", "color": "",        "label": { "en": "No band", "it": "Senza elastico" } },
     { "id": "light",  "short": "L", "color": "#D9A441", "label": { "en": "Light",   "it": "Leggero" } },
@@ -22,11 +22,11 @@
       "id": "mon", "skill": "hspu",
       "title": { "en": "Handstand push-ups", "it": "Piegamenti in verticale" },
       "exercises": [
-        { "id": "deficit-hspu", "name": { "en": "Deficit HSPU (wall)", "it": "Deficit HSPU (al muro)" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 180, "band": "no", "optional": false,
+        { "id": "deficit-hspu", "name": { "en": "Deficit HSPU (wall)", "it": "Deficit HSPU (al muro)" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false,
           "note": { "en": "The key exercise for new stimulus — the deeper the better. If you can, always finish with a negative.", "it": "Diventa l'esercizio più importante per avere nuovi stimoli: più scendi, meglio è. Se riesci, finisci sempre con una negativa." } },
-        { "id": "floating-pike", "name": { "en": "Floating pike push-ups", "it": "Floating pike push-ups" }, "sets": 3, "kind": "reps", "min": 2, "max": 3, "plus": false, "rest": 150, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "wall-hspu", "name": { "en": "Wall HSPU", "it": "HSPU al muro" }, "sets": 3, "kind": "reps", "min": 10, "max": null, "plus": false, "rest": 150, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "hs-kickups", "name": { "en": "Handstand kick-ups", "it": "Kick-up in verticale" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 60, "band": "no", "optional": false,
+        { "id": "floating-pike", "name": { "en": "Floating pike push-ups", "it": "Floating pike push-ups" }, "sets": 3, "kind": "reps", "min": 2, "max": 3, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "wall-hspu", "name": { "en": "Wall HSPU", "it": "HSPU al muro" }, "sets": 3, "kind": "reps", "min": 10, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "hs-kickups", "name": { "en": "Handstand kick-ups", "it": "Kick-up in verticale" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false,
           "note": { "en": "Controlled kick-ups, find the balance point.", "it": "Slanci controllati, cerca il punto di equilibrio." } }
       ]
     },
@@ -34,12 +34,12 @@
       "id": "tue", "skill": "fl",
       "title": { "en": "Front lever 1", "it": "Front lever 1" },
       "exercises": [
-        { "id": "full-fl-band", "name": { "en": "Full front lever (band)", "it": "Front lever completo (elastico)" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": false, "rest": 150, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "straddle-fl-raises", "name": { "en": "Straddle front lever raises / press", "it": "Straddle front lever raises / press" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 150, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "straddle-fl-max", "name": { "en": "Straddle front lever max hold", "it": "Straddle front lever tenuta massima" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": true, "rest": 180, "band": "no", "optional": false,
+        { "id": "full-fl-band", "name": { "en": "Full front lever (band)", "it": "Front lever completo (elastico)" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": false, "rest": 240, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "straddle-fl-raises", "name": { "en": "Straddle front lever raises / press", "it": "Straddle front lever raises / press" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "straddle-fl-max", "name": { "en": "Straddle front lever max hold", "it": "Straddle front lever tenuta massima" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": true, "rest": 240, "band": "no", "optional": false,
           "note": { "en": "Max hold — stop when form breaks.", "it": "Tenuta massima: fermati quando la forma cede." } },
-        { "id": "tuck-to-straddle-fl", "name": { "en": "Tuck to straddle front lever", "it": "Da tuck a straddle front lever" }, "sets": 3, "kind": "reps", "min": 3, "max": 5, "plus": false, "rest": 150, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "adv-tuck-pullups-band", "name": { "en": "Advanced tuck pull-ups (band)", "it": "Advanced tuck pull-ups (elastico)" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 150, "band": "yes", "optional": false, "note": { "en": "", "it": "" } }
+        { "id": "tuck-to-straddle-fl", "name": { "en": "Tuck to straddle front lever", "it": "Da tuck a straddle front lever" }, "sets": 3, "kind": "reps", "min": 3, "max": 5, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "adv-tuck-pullups-band", "name": { "en": "Advanced tuck pull-ups (band)", "it": "Advanced tuck pull-ups (elastico)" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "yes", "optional": false, "note": { "en": "", "it": "" } }
       ]
     },
     {
@@ -51,26 +51,26 @@
       "id": "thu", "skill": "pl",
       "title": { "en": "Planche 1", "it": "Planche 1" },
       "exercises": [
-        { "id": "tuck-to-straddle-pl-band", "name": { "en": "Tuck planche to straddle (band)", "it": "Da tuck planche a straddle (elastico)" }, "sets": 3, "kind": "reps", "min": 3, "max": 6, "plus": false, "rest": 150, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "frog-planche", "name": { "en": "Frog planche", "it": "Frog planche" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": false, "rest": 120, "band": "optional", "optional": false,
+        { "id": "tuck-to-straddle-pl-band", "name": { "en": "Tuck planche to straddle (band)", "it": "Da tuck planche a straddle (elastico)" }, "sets": 3, "kind": "reps", "min": 3, "max": 6, "plus": false, "rest": 240, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "frog-planche", "name": { "en": "Frog planche", "it": "Frog planche" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": false, "rest": 240, "band": "optional", "optional": false,
           "note": { "en": "Max hold, goal 10s.", "it": "Tenuta massima, obiettivo 10s." } },
-        { "id": "adv-tuck-planche", "name": { "en": "Advanced tuck planche", "it": "Advanced tuck planche" }, "sets": 3, "kind": "secs", "min": 7, "max": 10, "plus": false, "rest": 150, "band": "optional", "optional": false,
+        { "id": "adv-tuck-planche", "name": { "en": "Advanced tuck planche", "it": "Advanced tuck planche" }, "sets": 3, "kind": "secs", "min": 7, "max": 10, "plus": false, "rest": 240, "band": "optional", "optional": false,
           "note": { "en": "Use a band if needed.", "it": "Usa l'elastico se serve." } },
-        { "id": "elev-pl-lean-pushups", "name": { "en": "Elevated planche lean push-ups", "it": "Elevated planche lean push-ups" }, "sets": 3, "kind": "reps", "min": 8, "max": 10, "plus": false, "rest": 90, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "elev-pl-leans", "name": { "en": "Elevated planche leans", "it": "Elevated planche leans" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": false, "rest": 60, "band": "no", "optional": false, "note": { "en": "", "it": "" } }
+        { "id": "elev-pl-lean-pushups", "name": { "en": "Elevated planche lean push-ups", "it": "Elevated planche lean push-ups" }, "sets": 3, "kind": "reps", "min": 8, "max": 10, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "elev-pl-leans", "name": { "en": "Elevated planche leans", "it": "Elevated planche leans" }, "sets": 3, "kind": "secs", "min": 10, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } }
       ]
     },
     {
       "id": "fri", "skill": "fl",
       "title": { "en": "Front lever 2", "it": "Front lever 2" },
       "exercises": [
-        { "id": "straddle-fl", "name": { "en": "Straddle front lever", "it": "Straddle front lever" }, "sets": 3, "kind": "secs", "min": 8, "max": null, "plus": false, "rest": 180, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "straddle-fl-band", "name": { "en": "Straddle front lever (band)", "it": "Straddle front lever (elastico)" }, "sets": 3, "kind": "secs", "min": 15, "max": null, "plus": false, "rest": 150, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "one-leg-fl", "name": { "en": "One-leg hold + raises / press", "it": "One-leg hold + raises / press" }, "sets": 4, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 120, "band": "no", "optional": false,
+        { "id": "straddle-fl", "name": { "en": "Straddle front lever", "it": "Straddle front lever" }, "sets": 3, "kind": "secs", "min": 8, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "straddle-fl-band", "name": { "en": "Straddle front lever (band)", "it": "Straddle front lever (elastico)" }, "sets": 3, "kind": "secs", "min": 15, "max": null, "plus": false, "rest": 240, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "one-leg-fl", "name": { "en": "One-leg hold + raises / press", "it": "One-leg hold + raises / press" }, "sets": 4, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false,
           "note": { "en": "2 sets per leg: 3s hold + 5 raises.", "it": "2 serie per gamba: 3s di tenuta + 5 raises." } },
-        { "id": "adv-tuck-fl-pullups", "name": { "en": "Advanced tuck front lever pull-ups", "it": "Advanced tuck front lever pull-ups" }, "sets": 3, "kind": "reps", "min": 7, "max": null, "plus": false, "rest": 150, "band": "optional", "optional": false,
+        { "id": "adv-tuck-fl-pullups", "name": { "en": "Advanced tuck front lever pull-ups", "it": "Advanced tuck front lever pull-ups" }, "sets": 3, "kind": "reps", "min": 7, "max": null, "plus": false, "rest": 240, "band": "optional", "optional": false,
           "note": { "en": "Use a band if needed.", "it": "Usa l'elastico se serve." } },
-        { "id": "hammer-curls", "name": { "en": "Hammer curls", "it": "Hammer curls" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 90, "band": "no", "optional": true,
+        { "id": "hammer-curls", "name": { "en": "Hammer curls", "it": "Hammer curls" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "no", "optional": true,
           "note": { "en": "If you have time.", "it": "Se hai tempo." } }
       ]
     },
@@ -78,12 +78,12 @@
       "id": "sat", "skill": "pl",
       "title": { "en": "Planche 2", "it": "Planche 2" },
       "exercises": [
-        { "id": "straddle-pl-takeoffs", "name": { "en": "Straddle planche take-offs (band)", "it": "Straddle planche take-offs (elastico)" }, "sets": 3, "kind": "reps", "min": 2, "max": 5, "plus": false, "rest": 150, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "frog-planche-2", "name": { "en": "Frog planche", "it": "Frog planche" }, "sets": 3, "kind": "secs", "min": 5, "max": null, "plus": true, "rest": 120, "band": "optional", "optional": false,
+        { "id": "straddle-pl-takeoffs", "name": { "en": "Straddle planche take-offs (band)", "it": "Straddle planche take-offs (elastico)" }, "sets": 3, "kind": "reps", "min": 2, "max": 5, "plus": false, "rest": 240, "band": "yes", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "frog-planche-2", "name": { "en": "Frog planche", "it": "Frog planche" }, "sets": 3, "kind": "secs", "min": 5, "max": null, "plus": true, "rest": 240, "band": "optional", "optional": false,
           "note": { "en": "Band if needed.", "it": "Elastico se serve." } },
-        { "id": "tuck-to-adv-tuck-pl", "name": { "en": "Tuck to advanced tuck planche", "it": "Da tuck ad advanced tuck planche" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 150, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "adv-tuck-planche-2", "name": { "en": "Advanced tuck planche", "it": "Advanced tuck planche" }, "sets": 3, "kind": "secs", "min": 5, "max": 10, "plus": false, "rest": 150, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
-        { "id": "elev-pl-lean-pushups-2", "name": { "en": "Elevated planche lean push-ups", "it": "Elevated planche lean push-ups" }, "sets": 3, "kind": "reps", "min": 8, "max": 10, "plus": false, "rest": 90, "band": "no", "optional": true,
+        { "id": "tuck-to-adv-tuck-pl", "name": { "en": "Tuck to advanced tuck planche", "it": "Da tuck ad advanced tuck planche" }, "sets": 3, "kind": "reps", "min": 5, "max": null, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "adv-tuck-planche-2", "name": { "en": "Advanced tuck planche", "it": "Advanced tuck planche" }, "sets": 3, "kind": "secs", "min": 5, "max": 10, "plus": false, "rest": 240, "band": "no", "optional": false, "note": { "en": "", "it": "" } },
+        { "id": "elev-pl-lean-pushups-2", "name": { "en": "Elevated planche lean push-ups", "it": "Elevated planche lean push-ups" }, "sets": 3, "kind": "reps", "min": 8, "max": 10, "plus": false, "rest": 240, "band": "no", "optional": true,
           "note": { "en": "Optional — depends on when you train it.", "it": "Facoltativo, dipende da quando lo alleni." } }
       ]
     },
